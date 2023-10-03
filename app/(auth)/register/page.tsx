@@ -1,1 +1,6 @@
-export default function Auth() {}
+// register/page.tsx
+import AuthForm from "@/components/AuthForm";
+
+export default function Register() {
+  return <AuthForm mode="register" />;
+}
